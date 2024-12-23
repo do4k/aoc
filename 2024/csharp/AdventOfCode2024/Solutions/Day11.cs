@@ -1,5 +1,5 @@
 namespace AdventOfCode2024.Solutions;
-[RunSolution]
+
 public class Day11 : BaseSolution, ISolution
 {
     public override int Day() => 11;
@@ -16,8 +16,6 @@ public class Day11 : BaseSolution, ISolution
             .Select(long.Parse)
             .ToList()
             .Sum(stone => RecursiveScore(stone, 0, blinks));
-
-        Console.WriteLine($"Blinks {blinks} stones {total}");
         return total;
     }
 
