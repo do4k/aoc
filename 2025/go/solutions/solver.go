@@ -1,7 +1,3 @@
-// Package solutions contains Advent of Code 2025 puzzle solutions.
-//
-// # C# vs Go: Architecture Comparison
-//
 // C# Approach:
 //   - Uses abstract base class (DayBase) with virtual methods
 //   - Relies on inheritance and polymorphism via interfaces (IDay)
